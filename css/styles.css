@@ -41,6 +41,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .menuu{
     display: flex; 
     gap: 40px;
+    
 }
 .menufiles{
     padding: 24px 0;
@@ -48,6 +49,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     color: #404bbf;
     font-family: "Roboto";
     position: relative; 
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menufiles:last-child{
     margin: 0 auto;
@@ -61,7 +63,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     height: 4px; 
     background-color: #404bbf;
     border-radius: 2px;
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 content: '';
 }
 .studio{
@@ -117,6 +118,7 @@ h1{
     color:#434455;
     padding: 24px 0;
     display:block; 
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .add:hover,
