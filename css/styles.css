@@ -1,0 +1,353 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color:#FFFFFF;
+    color:#434455;
+}
+img{
+    display: block;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+.headd{
+    border-bottom: 1px solid #e7e9fc;
+margin:0;
+}
+.header-container{
+    display:flex;
+    align-items:center;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nvvv{
+    display: flex;
+    align-items: center;
+
+}
+.page-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size:18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+    line-height: 1.17;
+    margin-right: 76px
+}
+.menuu{
+    display: flex; 
+    gap: 40px;
+}
+.menufiles{
+    padding: 24px 0;
+    display:block;
+    color:#2E2F42;
+    font-family: "Roboto";
+}
+.menufiles:last-child{
+    margin: 0 auto;
+}
+.studio{
+    color: #2e2f42;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+}
+
+
+.first{
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.first:hover,
+.second:hover,
+.third:hover{
+    color:#404bbf;
+}
+
+.first:focus,
+.second:focus,
+.third:focus{
+    color:#404bbf;
+}
+
+.addresss{
+    font-style: normal;
+    margin-left:auto;
+
+}
+
+.addr{
+    display: flex;
+    gap: 40px;
+
+}
+.addr:last-child{
+    margin-right: 0;
+}
+.number{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+    padding: 24px 0;
+    display:block; 
+}
+
+.add:hover,
+.number:hover{
+    color:#404bbf;
+}
+
+.add:focus,
+.number:focus{
+    color:#404bbf;
+}
+
+.sect{
+    background-color:#2e2f42;
+    padding: 188px 0;
+}
+
+.effective{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+    margin-bottom:48px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.but{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    border: 0; 
+    border-radius: 4px; 
+    padding: 16px 32px;
+    margin:0 auto;
+
+    
+
+}
+.secttwo{
+    padding: 120px 0;
+}
+.secondpage{
+    display: flex;
+    gap: 24px;
+    margin-right: 24px;
+}
+.secondpage:last-child{
+    margin-right: 0;
+}
+.but:hover{
+    background-color:#404BBF;
+}
+
+.but:focus{
+    background-color:#404BBF;
+}
+
+
+.str{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    margin-bottom: 8px;
+}
+
+.ggoal{
+    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+    flex-basis: calc((100% - 3 * 24px));
+}
+
+.set{
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.team{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42 ;
+    margin-bottom: 72px;
+}
+.teams{
+    display: flex;
+    gap: 24px;
+    margin-right: 24px;
+}
+.teams:last-child{
+    margin-right: 0;
+}
+.goteam,
+.goteamthree{
+    background-color: #FFFFFF;
+}
+
+
+
+.afff{
+    padding: 32px 0;
+
+}
+.goals{
+    flex-basis: calc((100% - 72px) / 4);
+}
+.teamgo{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.goteam{
+    border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.parag{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.port{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+    margin-bottom: 72px;
+
+}
+
+.bank{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.papp{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+    font-size: 16px;
+}
+
+.bakcgr{
+    background-color:#2e2f42;
+
+}
+
+.logotwo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size:18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+    line-height: 1.17;
+}
+
+.fotit{
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.stu{
+    color: #f4f4fd;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.secta{
+    padding: 120px 0 120px 0;
+}
+
+.option{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px; 
+
+}
+.pych{
+    width: calc((100% - 48px) / 3);
+}
+
+.block{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+a {text-decoration: none;}
+ul {list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;}
+
+.bakcgr{
+    padding: 100px 0;
+}
+
+.logotwo{
+    margin-bottom: 16px;
+    display: inline-block; 
+}
+
+.fotit{
+    max-width: 264px;
+}
