@@ -9,6 +9,7 @@ img{
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 }
+/* header */
 .headd{
     border-bottom: 1px solid #e7e9fc;
 margin:0;
@@ -130,7 +131,7 @@ h1{
 .number:focus{
     color:#404bbf;
 }
-
+/* first-page */
 .sect{
     background-color:#2e2f42;
     padding: 188px 0;
@@ -172,6 +173,8 @@ h1{
     
 
 }
+
+/* section number two */
 .secttwo{
     padding: 120px 0;
 }
@@ -191,6 +194,16 @@ h1{
     background-color:#404BBF;
 }
 
+.icon-first-text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
 
 .str{
     font-weight: 500;
@@ -209,7 +222,7 @@ h1{
     color:#434455;
     flex-basis: calc((100% - 3 * 24px));
 }
-
+/* section number three */
 .set{
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -331,7 +344,7 @@ h1{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
+/* section number four */
 .secta{
     padding: 120px 0 120px 0;
 }
@@ -359,7 +372,7 @@ ul {list-style: none;
     margin: 0;
     padding: 0;
     list-style-type: none;}
-
+/* footer */
 .bakcgr{
     padding: 100px 0;
 }
