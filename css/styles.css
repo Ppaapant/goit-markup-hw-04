@@ -397,10 +397,7 @@ h1{
     transform: translateY(0%);
     
 }
-.option:hover{
-    transform: translateY(0%);
 
-}
 .porfolio-items{
     position: relative;
     overflow: hidden;
