@@ -445,12 +445,10 @@ ul {list-style: none;
     max-width: 264px;
 }
 
-.container:last-child{
+
+.container .footer-section{
+    display:flex;
     align-items: baseline;
-    display:flex;
-}
-.container footer-section{
-    display:flex;
 }
 .footer-div-section{
     margin-right: 120px;
