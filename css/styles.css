@@ -449,6 +449,9 @@ ul {list-style: none;
     align-items: baseline;
     display:flex;
 }
+.container footer-section{
+    display:flex;
+}
 .footer-div-section{
     margin-right: 120px;
 }
