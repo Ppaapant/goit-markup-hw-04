@@ -446,7 +446,7 @@ ul {list-style: none;
 }
 
 
-.container .footer-section{
+.footer-section{
     display:flex;
     align-items: baseline;
 }
