@@ -78,7 +78,7 @@ h1{
 }
 
 
-.menufiles:{
+.menufiles{
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
@@ -136,6 +136,8 @@ h1{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .effective{
